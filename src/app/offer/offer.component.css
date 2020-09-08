@@ -1,0 +1,42 @@
+.container-oferta {
+  border: 1px solid red;
+  width: 450px;
+  text-align: center;
+  margin-top: 30px;
+}
+.text-oferta {
+  font-size: 20px;
+}
+.container-idOferta {
+  border: 1px solid red;
+  width: 200px;
+  text-align: center;
+  margin-top: -3px;;
+
+}
+.container-nombre {
+  border: 1px solid red;
+  width: 200px;
+  text-align: center;
+  margin-top: 10px;
+}
+label {
+  font-size: 20px;
+}
+.row {
+  margin-top: 45px !important;
+}
+.bi-caret-down-fill {
+  color: red;
+  size: 30px;
+}
+.idOferta {
+  display: flex;
+  margin-left: 571px;
+  margin-top: -27px;
+}
+.nombre {
+  display: flex;
+  margin-left: 571px;
+  margin-top: 9px;
+}

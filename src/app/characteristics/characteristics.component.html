@@ -1,0 +1,18 @@
+<div class="container-all2">
+  <label style="margin-left: 93px;font-size: 24px;">Caracteristicas</label>
+  <div class="container-table">
+    <table class="table" style="width: 300px; margin-left: 20px">
+      <tbody>
+      <tr *ngFor="let caracteristca of caracteristicas">
+        <th scope="row">{{ caracteristca.id }}: {{ caracteristca.versions[0].displayValue }}</th>
+      </tr>
+      <tr *ngIf="caracteristicas.length == 0">
+        <th scope="row">No hay caracteristicas disponibles</th>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+
+</div>

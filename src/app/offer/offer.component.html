@@ -1,0 +1,26 @@
+
+
+<div class="container">
+  <div class="container-oferta">
+    <label class="text-oferta">Oferta 1
+    </label>
+    <select class="browser-default custom-select" (change)="getOferta()" [(ngModel)]="oferta" >
+      <option [value]="item.name" *ngFor="let item of versions">{{ item.name }}</option>
+    </select>
+  </div>
+
+  <div class="idOferta">
+    <label class="text-oferta">ID Oferta: </label>
+    <div class="container-idOferta">
+   {{ offertId }}
+    </div>
+  </div>
+
+  <div class="nombre" style="box-sizing: content-box">
+    <label class="text-nombre">Nombre:</label>
+    <div class="container-nombre">
+      {{ offertName }}
+    </div>
+  </div>
+</div>
+

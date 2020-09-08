@@ -1,0 +1,26 @@
+.table {
+  width: 300px;
+  margin: 0px !important;
+}
+tr {
+  text-align: center;
+}
+.container-table {
+  width: 300px;
+  height: 195px;
+  margin-left: 20px;
+}
+th {
+  border: 1px solid red;
+}
+.container-all {
+  margin-top: -212px;
+  margin-left: 529px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 12px;
+  margin-top: 146px;
+}
